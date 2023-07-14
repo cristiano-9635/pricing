@@ -1,0 +1,384 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+max-width: 1280px;
+overflow-x: hidden;
+overflow-y: hidden;
+ 
+} 
+
+
+.header{
+position: relative;
+left: 18.9rem;
+bottom: 49.9rem;
+/* border: 0.5px solid black; */
+background-color:azure;
+width: 80rem;
+
+
+}
+
+.signin-button{
+  position: relative;
+  left: 30rem;
+  background-color:aliceblue;
+  border: 1px solid blue
+
+}
+
+.sidebar{
+display:flex;
+  position: relative;
+  border: 1px solid cyan;
+  width: 24%;
+  height: 50rem;
+
+}
+
+.commit{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.claimyourprofile{
+  z-index: 0;
+}
+
+
+
+.content{
+  position:relative;
+  border: 1px solid cyan;
+ left: 18.9rem;
+ bottom: 49.7rem;
+ width: 78rem;
+ height: 80px;
+ background-color: lightblue;
+ box-shadow:aquamarine;
+
+
+}
+
+.contact{
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+  color: blue;
+}
+
+.link{
+  position: relative;
+  left: 48rem;
+}
+
+.hero-component{
+  justify-content: center;
+  position: relative;
+  left: 18.9rem;
+  bottom: 48rem;
+  /* border: 1px solid black; */
+  width: 80rem;
+  height: 250px;
+}
+
+.pricing-text{
+  text-decoration: blueviolet;
+  display: flex;
+  position: relative;
+   left: 3rem;
+   top: 4rem;
+  color: black;
+  font-weight: bold;
+  width: 65%;
+ 
+}
+
+.pricing-text-main{
+  position: relative;
+  left: 12rem;
+ top: 2rem;
+ color:darkmagenta;
+
+
+}
+
+
+/* table component css */     /* table component css */    /* table component css */
+
+
+.table{
+  position: relative;
+  left: 19.8rem;
+  bottom: 40rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 65px;
+  
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  background-color:aliceblue;
+  width: 50%;
+  border-style:ridge;
+  border-width: 1px;
+  border-color:skyblue;
+
+}
+
+
+/* table component css */     /* table component css */    /* table component css */
+
+
+
+/* rating component css */   /* rating component css */   /* rating component css */  
+
+.rating{
+  position: relative;
+  bottom: 110.1rem;
+  left: 58.5rem;
+
+}
+
+.rating-row {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  height: 65px;
+
+
+  cursor: pointer;
+  pointer-events: none;
+  background: rgba(255, 255, 10, 0.7);
+ 
+  
+}
+
+.rating-column {
+  flex: 1;
+  padding: 10px;
+  background-color:mintcream;
+  border-style:ridge;
+  border-width: 1px;
+  border-color: skyblue;
+  
+}
+
+.last-rate{
+  color: blue;
+  font-weight: 700;
+}
+
+
+.icon{
+  width: 3rem;
+}
+
+
+
+/* rating component css */   /* rating component css */   /* rating component css */  
+
+
+
+.footer-adjustment{
+  position: relative;
+  bottom: 50rem;
+}
+
+
+
+/*
+.card {
+  padding: 2em;.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+}
+
+.read-the-docs {
+  color: #888;
+} 
+ 
+
+   */
+
+
+
+   .hamburger{
+    display: none;
+   }
+
+   .logo{
+    color: blue;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+   }
+
+
+      /*New media query for all for 700px */        /* New media query for all for 700px */
+
+   @media only screen and (max-width: 700px) {
+    .hamburger {
+      display:contents;
+    }
+    
+    .logo{
+      display: none;
+    }
+    .logo-responsive{
+      color: blue;
+      font-size: 1.5rem;
+      margin-left: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .sidebar{
+      width: 12.5%;
+    
+    }
+    
+   
+    .content{
+     width: 46rem;
+     left: 4rem;
+    bottom: 50rem;
+    
+    }
+
+    .header{
+      left: 4rem;
+      width: 10rem;
+      bottom: 50rem;
+    }
+   
+
+    .hero-component{
+     left: 3rem;
+    width: 80%;  
+    bottom:40rem;
+    justify-content: center;
+    text-align: center;
+   
+   
+    }
+
+    .pricing-text{
+    left: 3rem;
+    width: 33rem;
+    font-size: 20px;
+    
+    }
+
+    .pricing-text-main{
+      font-size: 40px;
+      right: 4rem;
+      margin-right: 3rem;
+      
+         
+    left: 3rem;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      width: 16rem;
+      height: 65px;
+      
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+      background-color:aliceblue;
+      width: 40%;
+      border-style:ridge;
+      border-width: 1px;
+      border-color:skyblue;
+    
+    }
+    .table{
+      left: 2rem;
+  bottom: 33rem;
+    }
+
+    .rating{
+      position: relative;
+      bottom: 103rem;
+      left: 17rem;
+    }
+    
+    .rating-row {
+      display: flex;
+      justify-content: space-between;
+      width: 23rem;
+      height: 65px;
+    }
+    
+    .rating-column {
+      flex: 1;
+      padding: 10px;
+      background-color:mintcream;
+      border-style:ridge;
+      border-width: 1px;
+      border-color: skyblue;
+    }
+    
+  }
+
+     /* New media query for all for 700px */      /* New media query for all for 700px */
+
+     /* _____________________________________________________________________________________________________ */
+
+
+
+/* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */
+
+.footer-adjustment{
+  position: relative;
+  left: 30rem;
+}
+
+
+
+/* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */
+
+     
+
+
+
+
+
+   
