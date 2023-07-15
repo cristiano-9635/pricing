@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
 
 const Table = () => {
   return (
+    <div>
     <div className="table">
       <div class="row">
         <div class="column  claimyourprofile">Claim your profile</div>
@@ -107,7 +108,11 @@ const Table = () => {
       </div>
 
     </div>
-  );
-};
 
-export default Table;
+
+
+    </div>
+  )
+}
+
+export default Table

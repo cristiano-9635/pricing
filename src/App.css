@@ -355,6 +355,18 @@ display:flex;
       border-width: 1px;
       border-color: skyblue;
     }
+
+    .footer-responsive{
+    position: relative;
+    top: 10rem;
+    right: 14rem;
+    }
+
+    .footer-adjustment{
+      width: 30%;
+    }
+
+   
     
   }
 
@@ -367,13 +379,57 @@ display:flex;
 /* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */
 
 .footer-adjustment{
+  width: 85%;
   position: relative;
-  left: 30rem;
+  left: 14rem;
+ bottom: 115rem;
 }
 
 
 
 /* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */  /* Footer css */
+
+
+
+/* ptags css */
+
+.ptag-1{
+  border-style: ridge;
+  border-width: 1px;
+  width: 100%rem;
+  height: 230px;
+  position: relative;
+  left: 19rem;
+  bottom: 110rem;
+
+}
+
+.text-1{
+  position: relative;
+  top: 4rem;
+  color: gray;
+  font-weight: 400;
+}
+
+.lastlinks{
+  
+  border-style: ridge;
+  border-width: 1px;
+  width:100%;
+  position: relative;
+  left: 19rem;
+  bottom: 110rem;
+  height: 500px;
+}
+
+.patients{
+  color: gray;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+/* ptags css */
 
      
 
